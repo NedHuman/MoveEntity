@@ -1,0 +1,11 @@
+name: MoveEntity
+version: 1.0
+main: com.heesesmp.moveentity.MoveEntity
+api-version: '1.20'
+author: NedHuman
+description: Plugin for easily transporting entities around the world
+commands:
+  moveentity:
+    aliases: mve
+    description: The move entity command
+    permission: moveentity.use
