@@ -9,4 +9,4 @@ Permission: moveentity.use
 
 /mve reload - reload the config
 ## Requirements:
-SpigotMC (or any of it's forks), 1.20.4+
+SpigotMC, 1.20.2+
