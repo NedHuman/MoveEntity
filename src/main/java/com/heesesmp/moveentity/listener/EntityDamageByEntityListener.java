@@ -12,6 +12,9 @@ public class EntityDamageByEntityListener implements Listener {
     @EventHandler
     public void onDamage(EntityDamageByEntityEvent event) {
         if(event.getDamager() instanceof Player player) {
+            if(event.getEntity() instanceof Player) {
+                return;
+            }
             if(player.hasPermission("moveentity.use")) {
                 if(Utils.isCopyStick(player.getInventory().getItemInMainHand())) {
                     event.setCancelled(true);
